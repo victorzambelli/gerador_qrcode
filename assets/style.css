@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181818;
+    font-family: sans-serif;
+}
+
+.title h1 {
+    text-align: center;
+    color: #5CB8E4;
+    background-color: #111111;
+    box-shadow: 0px 3px 6px 0px rgb(187, 187, 187)
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    padding: 3rem 2rem;
+}
+
+.qrcode-form {
+    background-color: #F2F2F2;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.qrcode-form #qrcodeInput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+.qrcode-form button {
+    display: block;
+    color: #F2F2F2;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #111111;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.qrcode-form button > a {
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+.qrcode-box {
+    margin-top: 20px;
+}
+
+.qrcode-box img {
+    width: 100%;
+    border: 5px solid #111111;
+    border-radius: 10px;
+}
+
+.error {
+    background-color: red;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
